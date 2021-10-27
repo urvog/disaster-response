@@ -56,6 +56,9 @@ Visual 2
 
 ![image info](./images/graph2.jpg)
 
+Visual 3
+
+![image info](./images/graph3.jpg)
 
 ## Instructions
 
@@ -71,6 +74,6 @@ Visual 2
 
 3. Go to http://0.0.0.0:3001/
 
-## Licensa
+## License
 
 Apache
