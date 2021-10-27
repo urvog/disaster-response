@@ -32,12 +32,6 @@ def load_data(database_filepath):
     engine = sqlalchemy.create_engine('sqlite:///'+database_filepath)
     df = pd.read_sql_table(table_name='messages', con = engine)
 
-    #max value in 'related' category is 2, could be an error, Replacing 2 with 1 to consider it a valid response.
-    df['related'] = df['related'].map(lambda x: 1 if x == 2 else x)
-
-    #child_alone category only has 0 values, we will drop this column
-    df = df.drop(['child_alone'], axis = 1 )
-    
     #split dataset in features(X) and target (Y)
     X = df['message']
     Y = df.iloc[:,4:]
