@@ -46,6 +46,40 @@ This project requires Python 3.x and the following Python libraries installed:
           |-- README
           |-- LICENSE
 
+
+## ETL Pipeline
+File data/process_data.py contains data cleaning pipeline that:
+
+- Loads the messages and categories dataset
+- Merges the two datasets
+- Cleans the data
+- Stores it in a SQLite database
+
+## ML Pipeline
+File models/train_classifier.py contains machine learning pipeline that:
+
+- Loads data from the SQLite database
+- Splits the data into training and testing sets
+- Builds a text processing and machine learning pipeline
+- Trains and tunes a model using GridSearchCV
+- Outputs result on the test set
+- Exports the final and best model as a pickle file
+
+## Flask Web App
+
+1. Run the following commands in the project's root directory to set up your database and model.
+
+    - To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
+
+3. Go to http://0.0.0.0:3001/
+
+
 ## Web Application Screenshots
 
 Visual 1
@@ -60,22 +94,10 @@ Visual 3
 
 ![image info](./images/graph3.jpg)
 
-## Instructions
-
-1. Run the following commands in the project's root directory to set up your database and model.
-
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
-
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
-
-3. Go to http://0.0.0.0:3001/
 
 ## License
 
 Apache License</p>
-Version 2.0, January 2004
+Version 2.0, January 2004</p>
 http://www.apache.org/licenses/
+
