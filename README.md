@@ -101,3 +101,6 @@ Apache License</p>
 Version 2.0, January 2004</p>
 http://www.apache.org/licenses/
 
+
+## Conclusions
+Since the dataset is unbalanced, we will proceed to use the macro average for the model evaluation metrics.Hence the macro-average gives every class the same importance, and therefore better reflects how well the model performs.
