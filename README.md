@@ -103,4 +103,4 @@ http://www.apache.org/licenses/
 
 
 ## Conclusions
-Since the dataset is unbalanced, we will proceed to use the macro average for the model evaluation metrics.Hence the macro-average gives every class the same importance, and therefore better reflects how well the model performs.
+Since the dataset is unbalanced (Visual 2), we will proceed to use the 'macro average' for the model evaluation metrics. Hence the macro-average gives every class the same importance, and therefore better reflects how well the model performs.
