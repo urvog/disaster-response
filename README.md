@@ -49,7 +49,7 @@ This project requires Python 3.x and the following Python libraries installed:
 ## Web Application Screenshots
 
 Visual 1
-![image info](./images/graph1.jfif)
+![image info](./images/graph1.jpg)
 
 Visual 2
-![image info](./images/graph2.jfif)
+![image info](./images/graph2.jpg)
