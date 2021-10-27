@@ -47,3 +47,9 @@ This project requires Python 3.x and the following Python libraries installed:
           |-- LICENSE
 
 ## Web Application Screenshots
+
+Visual 1
+![image info](./images/graph1.jfif)
+
+Visual 2
+![image info](./images/graph2.jfif)
