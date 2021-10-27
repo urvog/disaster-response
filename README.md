@@ -6,15 +6,15 @@ In this project using two datasets of distress mesages from three different chan
 
 This project requires Python 3.x and the following Python libraries installed:
 
-NumPy
-Pandas
-Matplotlib
-Json
-Plotly
-Nltk
-Flask
-Sklearn
-Sqlalchemy
-Sys
-Re
-Pickle
+- NumPy
+- Pandas
+- Matplotlib
+- Json
+- Plotly
+- Nltk
+- Flask
+- Sklearn
+- Sqlalchemy
+- Sys
+- Re
+- Pickle
