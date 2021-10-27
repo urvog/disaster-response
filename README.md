@@ -20,3 +20,29 @@ This project requires Python 3.x and the following Python libraries installed:
 - Sys
 - Re
 - Pickle
+
+
+## Files Description
+
+        disaster_response_pipeline
+          |-- app
+                |-- templates
+                        |-- go.html
+                        |-- master.html
+                |-- run.py
+          |-- data
+                |-- disaster_message.csv
+                |-- disaster_categories.csv
+                |-- DisasterResponse.db
+                |-- process_data.py
+          |-- models
+                |-- classifier.pkl
+                |-- train_classifier.py
+          |-- Preparation
+                |-- categories.csv
+                |-- ETL Pipeline Preparation.ipynb
+                |-- ETL_Preparation.db
+                |-- messages.csv
+                |-- ML Pipeline Preparation.ipynb
+                |-- README
+          |-- README
