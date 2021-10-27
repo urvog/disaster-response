@@ -24,7 +24,7 @@ This project requires Python 3.x and the following Python libraries installed:
 
 ## Files Description
 
-        disaster_response_pipeline
+        disaster-response
           |-- app
                 |-- templates
                         |-- go.html
@@ -33,16 +33,17 @@ This project requires Python 3.x and the following Python libraries installed:
           |-- data
                 |-- disaster_message.csv
                 |-- disaster_categories.csv
-                |-- DisasterResponse.db
+                |-- messagesDB.db
                 |-- process_data.py
+          |-- images
+                |-- header.jfif
           |-- models
                 |-- classifier.pkl
                 |-- train_classifier.py
-          |-- Preparation
-                |-- categories.csv
+          |-- notebooks
                 |-- ETL Pipeline Preparation.ipynb
-                |-- ETL_Preparation.db
-                |-- messages.csv
                 |-- ML Pipeline Preparation.ipynb
-                |-- README
           |-- README
+          |-- LICENSE
+
+## Web Application Screenshots
