@@ -99,10 +99,20 @@ Visual 3
 For the project we used two datasets,'messages.csv' and 'categories.csv', 
 
 Dataset messages.csv
+
 ![image info](./images/dataset1.jpg)
 
 Dataset categories.csv
+
 ![image info](./images/dataset2.jpg)
+
+Then we proceed to combine both sets of data to finally divide the category column into 36 individual columns that refer to the category to which each message belongs.
+
+When dealing with several columns as a learning target, we would be talking about a multiclass learning model.
+
+![image info](./images/dataset3.jpg)
+
+
 ## Model Performance
 Tests have been carried out with RandomForest, AdaBoostClassifier and GradientBoostClassifier. From of all of them, we obtained the best score with AdaBoosClassifier. For the metrics, the "Macro" average was used since the dataset is unbalanced.
 
