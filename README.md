@@ -94,6 +94,15 @@ Visual 3
 
 ![image info](./images/graph3.jpg)
 
+## Dataset
+
+## Model Performance
+Tests have been carried out with randomforest, adaclassifier, gradientboost classifier. Of all of them, the one that obtained the best score was AdaBoosClassifier.
+
+For the metrics, the "Macro" average was used since the dataset is unbalanced.
+
+Total evaluation over all categories:
+  Precision: 0.7763, Recall: 0.6473, FScore: 0.6793
 
 ## License
 
