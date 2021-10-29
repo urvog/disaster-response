@@ -96,10 +96,15 @@ Visual 3
 
 ## Dataset
 
-## Model Performance
-Tests have been carried out with randomforest, adaclassifier, gradientboost classifier. Of all of them, the one that obtained the best score was AdaBoosClassifier.
+For the project we used two datasets,'messages.csv' and 'categories.csv', 
 
-For the metrics, the "Macro" average was used since the dataset is unbalanced.
+Dataset messages.csv
+![image info](./images/dataset1.jpg)
+
+Dataset categories.csv
+![image info](./images/dataset2.jpg)
+## Model Performance
+Tests have been carried out with RandomForest, AdaBoostClassifier and GradientBoostClassifier. From of all of them, we obtained the best score with AdaBoosClassifier. For the metrics, the "Macro" average was used since the dataset is unbalanced.
 
 Total evaluation over all categories:
   Precision: 0.7763, Recall: 0.6473, FScore: 0.6793
