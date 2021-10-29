@@ -110,7 +110,7 @@ Then we proceed to combine both sets of data to finally divide the category colu
 
 When dealing with several columns as a learning target, we would be talking about a multiclass learning model.
 
-![image info](./images/dataset1.jpg)
+![image info](./images/dataset3.jpg)
 
 
 ## Model Performance
